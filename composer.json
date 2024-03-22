@@ -1,0 +1,27 @@
+{
+    "name": "sharika/module-customer-import",
+    "description": "A Magento 2 module for importing customers from various data sources.",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Sharika Dubey",
+            "email": "sharika.dubey@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "~8.2.0",
+        "magento/framework": "^103.0.0",
+        "magento/module-customer": "^103.0.0"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Sharika\\CustomerImport\\": ""
+        }
+    }
+}
